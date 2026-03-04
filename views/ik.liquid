@@ -4,24 +4,20 @@
     <div class="profilecard">
       <header>
         <p>{{ person.name }}</p>
-        {{ 'now' | date: '%d-%m-%Y' }}
       </header>
 
       <main>
         <img class= "foto" src="/foto.png" alt="">
         
         <ul>
-        <li><a class="text" href="/wie-ben-ik">Wie ben ik?</a></li>
+        <li><a class="text" href="https://yassir713.github.io/your-tribe-profile-card/info.html">Wie ben ik?</a></li>
         <li><a class="text" href="https://yassir713.github.io/your-tribe-profile-card/ervaring.html">Mijn ervaring</a></li>
         <li><a class="text" href="https://yassir713.github.io/your-tribe-profile-card/hobbies.html">Mijn hobbies</a></li>
         </ul>
-        
       </main>
 
     </div>
 
- <details><summary>Data</summary><pre>{{ person | json:4 }}</pre></details> 
-  
   <footer></footer>
 </article>
 
